@@ -14,6 +14,7 @@ public class user implements ActionListener {
     static String lose = "Aww Try again !!You Lost to Computer.";
     static String t1 = "Player :: ";
     static String t2 = "Computer :: ";
+    static String t3 =null;
     JFrame message = new JFrame("Rules");
     JLabel Rules = new JLabel();
     JLabel Rules2 = new JLabel();
@@ -151,6 +152,7 @@ public class user implements ActionListener {
             Count2 = 0;
             you.setText(t1 + Count1);
             comp.setText(t2 + Count2);
+            Winner.setText(t3);
         }
     }
 }
